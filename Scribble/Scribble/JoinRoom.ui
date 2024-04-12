@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JoinRoomClass</class>
+ <widget class="QMainWindow" name="JoinRoomClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>JoinRoom</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>320</y>
+      <width>341</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>311</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(11, 21, 65);
+border:none;
+border-bottom:2px solid rgba(105, 118,132, 255);
+color:rgba(255,255, 255, 230);
+padding-bottom:7px;
+radius-border:20xp;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="insertButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>93</y>
+       <width>211</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#insertButton{ 
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop: 1 rgba(85, 98, 112, 226));
+color:rgba(255, 255, 255, 210);
+ border-radius:7px; 
+}
+QPushButton#insertButton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226)) 
+}
+QPushButton#insertButton:pressed{ 
+padding-left:5px; 
+padding-top:5px; 
+background-color:rgba();
+	background-color: rgb(42, 0, 56);
+}</string>
+     </property>
+     <property name="text">
+      <string>Insert Room Code</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="createButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>143</y>
+       <width>211</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#createButton{ 
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop: 1 rgba(85, 98, 112, 226));
+color:rgba(255, 255, 255, 210);
+ border-radius:7px; 
+}
+QPushButton#createButton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226)) 
+}
+QPushButton#createButton:pressed{ 
+padding-left:5px; 
+padding-top:5px; 
+background-color:rgba();
+	background-color: rgb(42, 0, 56);
+}</string>
+     </property>
+     <property name="text">
+      <string>Create Waiting Room</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="profileButton">
+    <property name="geometry">
+     <rect>
+      <x>1094</x>
+      <y>20</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#profileButton{ 
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop: 1 rgba(85, 98, 112, 226));
+color:rgba(255, 255, 255, 210);
+ border-radius:7px; 
+}
+QPushButton#profileButton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(40, 67, 98, 219), stop:1 rgba(105, 118, 132, 226)) 
+}
+QPushButton#profileButton:pressed{ 
+padding-left:5px; 
+padding-top:5px; 
+background-color:rgba();
+	background-color: rgb(42, 0, 56);
+}</string>
+    </property>
+    <property name="text">
+     <string>Profile</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
